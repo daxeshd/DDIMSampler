@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 640" role="img" aria-labelledby="t d">
+  <title id="t">Medical Spa</title>
+  <desc id="d">Refined aesthetic treatments</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0%" stop-color="#f7f2e8"/>
+      <stop offset="100%" stop-color="#e8dcc6"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" x2="1">
+      <stop offset="0%" stop-color="#8c6a3f"/>
+      <stop offset="100%" stop-color="#5f4729"/>
+    </linearGradient>
+  </defs>
+  <rect width="960" height="640" fill="url(#bg)" rx="36"/>
+  <circle cx="820" cy="120" r="84" fill="#efe5d4"/>
+  <circle cx="120" cy="540" r="120" fill="#efe5d4"/>
+  <g fill="none" stroke="url(#accent)" stroke-width="18" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M280 135 c75 0 125 55 125 125 c0 105 -78 170 -125 170 c-48 0 -125 -65 -125 -170 c0 -70 50 -125 125 -125 z"/><path d="M230 255 c24 -20 96 -20 120 0"/><path d="M610 180 c70 0 125 55 125 125 s-55 125 -125 125 s-125 -55 -125 -125 s55 -125 125 -125 z"/>
+  </g>
+  <text x="72" y="92" font-family="Georgia, serif" font-size="48" fill="#1f2430">Medical Spa</text>
+  <text x="72" y="132" font-family="Georgia, serif" font-size="24" fill="#5c6475">Refined aesthetic treatments</text>
+</svg>
