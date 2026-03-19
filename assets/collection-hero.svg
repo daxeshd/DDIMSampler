@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 640" role="img" aria-labelledby="t d">
+  <title id="t">Website Showcase</title>
+  <desc id="d">Premium long-form homepage concepts</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0%" stop-color="#f7f2e8"/>
+      <stop offset="100%" stop-color="#e8dcc6"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" x2="1">
+      <stop offset="0%" stop-color="#8c6a3f"/>
+      <stop offset="100%" stop-color="#5f4729"/>
+    </linearGradient>
+  </defs>
+  <rect width="960" height="640" fill="url(#bg)" rx="36"/>
+  <circle cx="820" cy="120" r="84" fill="#efe5d4"/>
+  <circle cx="120" cy="540" r="120" fill="#efe5d4"/>
+  <g fill="none" stroke="url(#accent)" stroke-width="18" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M120 370 L290 170 L460 370 Z"/><path d="M610 150 h220 v150 h-220 z"/><path d="M790 250 a70 70 0 1 0 1 0"/>
+  </g>
+  <text x="72" y="92" font-family="Georgia, serif" font-size="48" fill="#1f2430">Website Showcase</text>
+  <text x="72" y="132" font-family="Georgia, serif" font-size="24" fill="#5c6475">Premium long-form homepage concepts</text>
+</svg>

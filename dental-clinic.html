@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Harborlight Dental Studio | Family & Cosmetic Dentistry in Tampa, FL</title>
+  <meta name="description" content="Harborlight Dental Studio is a sample family & cosmetic dentistry homepage for Tampa, FL with premium copywriting, SEO structure, and AEO-friendly FAQs.">
+  <meta name="keywords" content="Family & Cosmetic Dentistry, Tampa, FL, one page website, SEO homepage, AEO content">
+  <meta property="og:title" content="Harborlight Dental Studio | Family & Cosmetic Dentistry">
+  <meta property="og:description" content="Comfort-first dental care for busy families, smile makeovers, and long-term oral health.">
+  <meta property="og:image" content="assets/dental-clinic.svg">
+  <meta property="og:type" content="website">
+  <style>
+:root {
+  --bg: #f5f1e8;
+  --paper: #fffdfa;
+  --ink: #1f2430;
+  --muted: #5c6475;
+  --accent: #8c6a3f;
+  --accent-dark: #5f4729;
+  --line: rgba(31, 36, 48, 0.12);
+  --shadow: 0 20px 60px rgba(18, 25, 38, 0.12);
+  --radius: 24px;
+  --max: 1180px;
+}
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+body {
+  margin: 0;
+  font-family: Georgia, 'Times New Roman', serif;
+  color: var(--ink);
+  background: linear-gradient(180deg, #f8f4ec 0%, #f3efe6 100%);
+  line-height: 1.65;
+}
+a { color: inherit; text-decoration: none; }
+img { max-width: 100%; display: block; }
+.container { width: min(var(--max), calc(100% - 2rem)); margin: 0 auto; }
+.topbar {
+  display:flex; justify-content:space-between; align-items:center; gap:1rem;
+  padding: 1.1rem 0;
+  border-bottom: 1px solid var(--line);
+}
+.brand { font-size: 1.1rem; font-weight: 700; letter-spacing: 0.06em; text-transform: uppercase; }
+.nav { display:flex; gap:1.25rem; flex-wrap:wrap; color: var(--muted); font-size: 0.95rem; }
+.btn {
+  display:inline-flex; align-items:center; justify-content:center; padding:0.95rem 1.35rem;
+  border-radius:999px; border:1px solid transparent; font-weight:700; letter-spacing:0.01em;
+}
+.btn-primary { background: var(--accent); color:#fff; box-shadow: var(--shadow); }
+.btn-secondary { border-color: var(--line); background: rgba(255,255,255,0.6); }
+.hero { padding: 2.75rem 0 4rem; }
+.hero-grid, .two-col { display:grid; grid-template-columns: 1.05fr 0.95fr; gap: 2rem; align-items:center; }
+.eyebrow { color: var(--accent-dark); text-transform: uppercase; letter-spacing: 0.14em; font-size: 0.8rem; font-weight:700; }
+h1, h2, h3 { line-height: 1.1; margin: 0 0 1rem; }
+h1 { font-size: clamp(2.6rem, 5vw, 5rem); }
+h2 { font-size: clamp(2rem, 4vw, 3.2rem); }
+h3 { font-size: 1.35rem; }
+p { margin: 0 0 1rem; color: var(--muted); }
+.lead { font-size: 1.14rem; max-width: 62ch; }
+.card, .panel {
+  background: var(--paper); border:1px solid rgba(31,36,48,0.08); border-radius: var(--radius);
+  box-shadow: var(--shadow);
+}
+.hero-card img { height: 640px; object-fit: cover; border-radius: var(--radius); }
+.hero-copy .actions { display:flex; flex-wrap:wrap; gap:0.8rem; margin: 1.6rem 0; }
+.metrics { display:grid; grid-template-columns: repeat(3,1fr); gap: 1rem; margin-top: 1.7rem; }
+.metric { padding: 1rem; background: rgba(255,255,255,0.65); border:1px solid var(--line); border-radius: 18px; }
+.metric strong { display:block; font-size:1.5rem; color: var(--accent-dark); }
+section { padding: 4.5rem 0; }
+.section-head { max-width: 760px; margin-bottom: 2rem; }
+.grid-3 { display:grid; grid-template-columns: repeat(3,1fr); gap: 1.2rem; }
+.service, .benefit, .faq-item, .process-step, .review { padding: 1.5rem; }
+.list { padding-left: 1.2rem; color: var(--muted); }
+.band { background: #ece4d6; border-top:1px solid var(--line); border-bottom:1px solid var(--line); }
+.process { display:grid; grid-template-columns: repeat(4,1fr); gap: 1rem; }
+.review blockquote { margin:0 0 1rem; color: var(--ink); font-size: 1.03rem; }
+.cta-box { padding: 2rem; display:flex; justify-content:space-between; gap:1rem; align-items:center; }
+.faq { display:grid; grid-template-columns: 1fr 1fr; gap: 1rem; }
+footer { padding: 2.5rem 0 4rem; color: var(--muted); }
+.small { font-size: 0.92rem; }
+.showcase-links { display:grid; grid-template-columns: repeat(2,1fr); gap:1rem; }
+.showcase-links a { padding:1.2rem; background:var(--paper); border:1px solid var(--line); border-radius:18px; }
+@media (max-width: 980px) {
+  .hero-grid, .two-col, .grid-3, .process, .faq, .showcase-links { grid-template-columns: 1fr; }
+  .metrics { grid-template-columns: 1fr; }
+  .hero-card img { height: 420px; }
+  .cta-box, .topbar { flex-direction: column; align-items: flex-start; }
+}
+</style>
+  <script type="application/ld+json">{"@context": "https://schema.org", "@type": "LocalBusiness", "name": "Harborlight Dental Studio", "description": "Comfort-first dental care for busy families, smile makeovers, and long-term oral health.", "areaServed": "Tampa, FL", "image": "assets/dental-clinic.svg", "address": {"@type": "PostalAddress", "addressLocality": "Tampa", "addressRegion": "FL"}}</script>
+  <script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "How often should I visit the dentist?", "acceptedAnswer": {"@type": "Answer", "text": "Most patients benefit from an exam and professional cleaning every six months, though periodontal or restorative cases may require more frequent visits."}}, {"@type": "Question", "name": "Do you offer cosmetic dentistry?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. Cosmetic options often include whitening, veneers, Invisalign, bonding, and smile design consultations."}}, {"@type": "Question", "name": "Can I book for my whole family?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. Family dental offices usually coordinate appointments for children, teens, and adults to simplify scheduling."}}]}</script>
+</head>
+<body>
+  <div class="container">
+    <div class="topbar">
+      <div class="brand">Harborlight Dental Studio</div>
+      <nav class="nav">
+        <a href="#services">Services</a>
+        <a href="#why-us">Why Us</a>
+        <a href="#faq">FAQ</a>
+        <a class="btn btn-secondary" href="#contact">Schedule a Visit</a>
+      </nav>
+    </div>
+  </div>
+
+  <section class="hero">
+    <div class="container hero-grid">
+      <div class="hero-copy">
+        <div class="eyebrow">Family & Cosmetic Dentistry in Tampa, FL</div>
+        <h1>Comfort-first dental care for busy families, smile makeovers, and long-term oral health.</h1>
+        <p class="lead">Harborlight Dental Studio is presented as a premium local brand with a long-form homepage designed to rank, reassure, and convert. The copy is intentionally elegant, answer-rich, and built for owners who want more than a generic brochure site.</p>
+        <div class="actions">
+          <a class="btn btn-primary" href="#contact">Schedule a Visit</a>
+          <a class="btn btn-secondary" href="#services">Explore Treatments</a>
+        </div>
+        <div class="metrics">
+          <div class="metric"><strong>Premium</strong>Classic, trust-first visual direction</div>
+          <div class="metric"><strong>Local SEO</strong>City, service, and intent-led messaging</div>
+          <div class="metric"><strong>AEO Ready</strong>Direct answers for modern search behavior</div>
+        </div>
+      </div>
+      <div class="hero-card"><img src="assets/dental-clinic.svg" alt="Family & Cosmetic Dentistry hero illustration"></div>
+    </div>
+  </section>
+
+  <section class="band">
+    <div class="container two-col">
+      <div>
+        <div class="eyebrow">Positioning</div>
+        <h2>A homepage that sounds established before the first call ever happens.</h2>
+      </div>
+      <div>
+        <p>This mock site uses controlled typography, balanced spacing, polished contrast, and measured copywriting to signal maturity. It avoids flashy trends and instead leans into timeless credibility, which is often exactly what established local businesses want.</p>
+        <p><strong>Featured offer:</strong> New patient exam, digital X-rays, and consultation package.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="services">
+    <div class="container">
+      <div class="section-head">
+        <div class="eyebrow">Core Services</div>
+        <h2>What this family & cosmetic dentistry homepage is built to promote.</h2>
+        <p>Every service block is phrased in the language prospects actually search, while still sounding refined enough for a premium brand presentation.</p>
+      </div>
+      <div class="grid-3"><article class="card service"><h3>Preventive cleanings and exams</h3><p>Built to communicate expertise clearly, convert local search visitors, and support strong trust signals from the first scroll.</p></article>
+<article class="card service"><h3>Invisalign and cosmetic smile design</h3><p>Built to communicate expertise clearly, convert local search visitors, and support strong trust signals from the first scroll.</p></article>
+<article class="card service"><h3>Crowns, implants, and restorations</h3><p>Built to communicate expertise clearly, convert local search visitors, and support strong trust signals from the first scroll.</p></article>
+<article class="card service"><h3>Emergency dentistry for tooth pain</h3><p>Built to communicate expertise clearly, convert local search visitors, and support strong trust signals from the first scroll.</p></article></div>
+    </div>
+  </section>
+
+  <section id="why-us" class="band">
+    <div class="container">
+      <div class="section-head">
+        <div class="eyebrow">Why This Works</div>
+        <h2>Built for authority, clarity, and better conversion behavior.</h2>
+        <p>These supporting sections help visitors say yes faster by giving them the emotional reassurance and practical detail they were already looking for.</p>
+      </div>
+      <div class="grid-3"><article class="card benefit"><h3>Modern technology with gentle chairside care</h3><p>This section is written to reassure higher-intent visitors and strengthen quality perception before they ever make contact.</p></article>
+<article class="card benefit"><h3>Membership plan for uninsured patients</h3><p>This section is written to reassure higher-intent visitors and strengthen quality perception before they ever make contact.</p></article>
+<article class="card benefit"><h3>Early morning and after-work appointments</h3><p>This section is written to reassure higher-intent visitors and strengthen quality perception before they ever make contact.</p></article></div>
+    </div>
+  </section>
+
+  <section>
+    <div class="container">
+      <div class="section-head">
+        <div class="eyebrow">Visitor Journey</div>
+        <h2>Structured to guide attention without overwhelming the page.</h2>
+      </div>
+      <div class="process"><article class="card process-step"><h3>1. Discover</h3><p>Visitors quickly understand who you help, what you do, and why your business is credible.</p></article>
+<article class="card process-step"><h3>2. Evaluate</h3><p>Service details, proof points, and benefit-led copy reduce hesitation and build confidence.</p></article>
+<article class="card process-step"><h3>3. Ask</h3><p>Answer-engine-friendly FAQ content captures common questions in a direct, natural format.</p></article>
+<article class="card process-step"><h3>4. Convert</h3><p>Clear calls to action move interested visitors toward schedule a visit.</p></article></div>
+    </div>
+  </section>
+
+  <section class="band">
+    <div class="container">
+      <div class="section-head">
+        <div class="eyebrow">Copywriting Sample</div>
+        <h2>Elegant brand language with commercial intent.</h2>
+      </div>
+      <div class="grid-3">
+        <article class="card review"><blockquote>“People do not hire a business website because they want more pages. They hire one because they want trust to happen faster.”</blockquote><p>This quote-style block demonstrates a high-end editorial voice.</p></article>
+        <article class="card review"><blockquote>“A well-positioned homepage should answer the practical question, calm the emotional objection, and then make the next step obvious.”</blockquote><p>This kind of language feels strategic, not templated.</p></article>
+        <article class="card review"><blockquote>“The businesses that look established online usually earn stronger inquiries offline.”</blockquote><p>These sections help the page feel substantial and authoritative.</p></article>
+      </div>
+    </div>
+  </section>
+
+  <section id="faq">
+    <div class="container">
+      <div class="section-head">
+        <div class="eyebrow">Frequently Asked Questions</div>
+        <h2>Direct answers that support both buyers and answer engines.</h2>
+        <p>These concise responses are included because modern discovery increasingly rewards pages that answer real questions clearly and naturally.</p>
+      </div>
+      <div class="faq"><article class="panel faq-item"><h3>How often should I visit the dentist?</h3><p>Most patients benefit from an exam and professional cleaning every six months, though periodontal or restorative cases may require more frequent visits.</p></article>
+<article class="panel faq-item"><h3>Do you offer cosmetic dentistry?</h3><p>Yes. Cosmetic options often include whitening, veneers, Invisalign, bonding, and smile design consultations.</p></article>
+<article class="panel faq-item"><h3>Can I book for my whole family?</h3><p>Yes. Family dental offices usually coordinate appointments for children, teens, and adults to simplify scheduling.</p></article></div>
+    </div>
+  </section>
+
+  <section id="contact" class="band">
+    <div class="container">
+      <div class="card cta-box">
+        <div>
+          <div class="eyebrow">Call to Action</div>
+          <h2>Ready to turn interest into inquiries?</h2>
+          <p>This final section is written to make the next step feel easy, credible, and immediate for local prospects.</p>
+        </div>
+        <div class="actions">
+          <a class="btn btn-primary" href="mailto:hello@example.com">Schedule a Visit</a>
+          <a class="btn btn-secondary" href="index.html">Back to All Samples</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container small">Sample homepage for Harborlight Dental Studio — Family & Cosmetic Dentistry in Tampa, FL. Designed as a standalone one-page mockup with SEO and AEO-friendly structure.</div>
+  </footer>
+</body>
+</html>
